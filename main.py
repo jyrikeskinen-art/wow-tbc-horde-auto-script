@@ -169,7 +169,7 @@ def create_character():
     print("HORDE AVAILABLE detected, proceeding with character creation...")
     race_pt = locate_center_mss(
         RACE_IMAGES[MY_RACE],
-        confidence=0.9,
+        confidence=0.95,
         monitor_index=WOW_MONITOR,
         grayscale=False,
     )
@@ -302,7 +302,7 @@ def automation_loop():
 
         if locate_center_mss(
             ESC_OR_LOOP_IMAGES[1],
-            confidence=0.9,
+            confidence=0.95,
             monitor_index=WOW_MONITOR,
             grayscale=False,
         ):
