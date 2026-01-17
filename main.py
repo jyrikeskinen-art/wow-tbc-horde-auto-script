@@ -13,7 +13,7 @@ MY_RACE = "tauren"  # options: orc, undead, tauren, troll, blood_elf
 MY_CLASS = (
     "warrior"  # options: warrior, hunter, rogue, mage, priest, warlock, shaman, paladin
 )
-MY_NAME = "Moothecowman"  # desired character name
+MY_NAME = "Jýkälol"  # desired character name
 
 # ------------------- settings -------------------
 pyautogui.FAILSAFE = True  # move mouse to top-left corner to abort
@@ -23,7 +23,7 @@ pyautogui.PAUSE = 0.02
 #  0 = virtual (all)
 #  1 = RIGHT monitor (left=1920)
 #  2 = LEFT/PRIMARY (left=0)
-WOW_MONITOR = 1  # <-- set to 2 if WoW is on the left/primary monitor
+WOW_MONITOR = 2  # <-- set to 2 if WoW is on the left/primary monitor
 
 CONFIDENCE = 0.8
 POLL = 0.12
